@@ -8,8 +8,6 @@ import { CocktailListComponent } from './cocktail-list/cocktail-list.component';
   standalone: true,
   imports: [CommonModule, CocktailAttributeComponent, CocktailListComponent],
   templateUrl: './cocktails.component.html',
-  styleUrls: ['./cocktails.component.scss']
+  styleUrls: ['./cocktails.component.scss'],
 })
-export class CocktailsComponent {
-
-}
+export class CocktailsComponent {}

@@ -1,4 +1,4 @@
-@use '../../../sass/variables';
+@use "../../../sass/variables";
 :host {
   display: flex;
   align-items: flex-start;
@@ -11,7 +11,7 @@
     font-size: 1.5rem;
     height: 5rem;
     justify-content: center;
-    padding: 1 .3rem 0;
+    padding: 1 0.3rem 0;
     min-width: 70px;
   }
   .attribute__title {

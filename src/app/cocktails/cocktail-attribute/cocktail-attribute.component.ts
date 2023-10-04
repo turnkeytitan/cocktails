@@ -6,9 +6,9 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './cocktail-attribute.component.html',
-  styleUrls: ['./cocktail-attribute.component.scss']
+  styleUrls: ['./cocktail-attribute.component.scss'],
 })
 export class CocktailAttributeComponent {
-@Input() imageSrc = ''
-@Input() title = ''
+  @Input() imageSrc = '';
+  @Input() title = '';
 }

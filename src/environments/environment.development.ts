@@ -1,3 +1,3 @@
 export const environment = {
-  cocktailAPI: 'www.thecocktaildb.com/api'
+  cocktailAPI: 'www.thecocktaildb.com/api',
 };

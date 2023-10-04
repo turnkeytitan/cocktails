@@ -7,7 +7,10 @@
   &::after {
     content: "";
     background-image: url("../../assets/Lineas-fondo.png");
-    background-position: center,left bottom, right;
+    background-position:
+      center,
+      left bottom,
+      right;
     background-repeat: no-repeat;
     height: 100%;
     position: absolute;
@@ -59,7 +62,10 @@
       background-image: url("../../assets/Botella-Gin-centro.png"),
         url("../../assets/Fruta-roja-centro.png"),
         url("../../assets/Palitos-cafe-centro.png");
-      background-position: center,left bottom, right;
+      background-position:
+        center,
+        left bottom,
+        right;
       background-repeat: no-repeat;
       background-size: 30%;
       z-index: -1;

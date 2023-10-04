@@ -8,7 +8,7 @@ describe('CocktailAttributeComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [CocktailAttributeComponent]
+      imports: [CocktailAttributeComponent],
     });
     fixture = TestBed.createComponent(CocktailAttributeComponent);
     component = fixture.componentInstance;

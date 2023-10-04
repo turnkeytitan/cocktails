@@ -9,7 +9,7 @@ import { FooterComponent } from './footer/footer.component';
   standalone: true,
   imports: [CommonModule, RouterOutlet, HeaderComponent, FooterComponent],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   title = 'front';
