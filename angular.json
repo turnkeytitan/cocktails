@@ -37,7 +37,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/sass/_variables.scss"
             ],
             "scripts": []
           },
@@ -106,7 +107,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/sass/_variables.scss"
             ],
             "scripts": []
           }

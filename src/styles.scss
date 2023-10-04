@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@use './sass/variables';
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 125 600;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+body {
+  background: #efece5;
+  box-sizing: border-box;
+  color: variables.$color;
+  font-size: .8rem;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 1rem;
+  font-family: Montserrat;
+}
+h1,h2,h3,h4 {
+  margin: 0;
+}
+button {
+  color: variables.$color;
+  font-weight: bold;
+}

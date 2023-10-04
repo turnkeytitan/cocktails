@@ -1,0 +1,77 @@
+@use "../../sass/variables";
+.banner {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 1rem;
+  &::after {
+    content: "";
+    background-image: url("../../assets/Lineas-fondo.png");
+    background-position: center,left bottom, right;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+  }
+  &__first {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+  &__title {
+    font-size: 4.4rem;
+    line-height: 4rem;
+  }
+  &__try {
+    align-items: center;
+    background-color: variables.$bg1;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 8rem;
+    padding-left: 1rem;
+  }
+  &__goto {
+    background-color: variables.$bg2;
+    background-image: url("../../assets/arrow.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .banner {
+    justify-content: space-between;
+    flex-direction: row;
+    &::before {
+      content: "";
+      background-color: variables.$bg1;
+      border-radius: 50%;
+      position: absolute;
+      top: calc(50% - 11rem);
+      left: calc(50% - 11rem);
+      height: 22rem;
+      width: 22rem;
+      background-image: url("../../assets/Botella-Gin-centro.png"),
+        url("../../assets/Fruta-roja-centro.png"),
+        url("../../assets/Palitos-cafe-centro.png");
+      background-position: center,left bottom, right;
+      background-repeat: no-repeat;
+      background-size: 30%;
+      z-index: -1;
+    }
+    &__first {
+      width: 40%;
+    }
+    &__desc {
+      width: 74%;
+    }
+    &__second {
+      max-width: 30%;
+    }
+  }
+}

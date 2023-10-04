@@ -1,0 +1,24 @@
+<article class="banner">
+  <section class="banner__first">
+    <h1 class="banner__title">Drink of the moment</h1>
+    <p class="banner__desc">
+      Gin, also known as gin, is one of the most popular and appreciated
+      alcoholic beverages worldwide, especially for its versatility in
+      cocktails. Originally from Europe, this spirit has evolved over the
+      centuries and comes in a wide range of styles and flavors.
+    </p>
+    <h2 class="banner__stars">4.9</h2>
+    <button class="banner__try"><p>Try now</p> <span class="banner__goto"></span></button>
+  </section>
+  <section class="banner__second">
+    <app-cocktail-attribute
+      [imageSrc]="'../../assets/water-solid.png'"
+      title="Versatility"
+      >The range of flavors in gin is exceptionally wide, thanks to the variety
+      of botanicals that can be used in its production.</app-cocktail-attribute
+    >
+  </section>
+</article>
+<section class="popular">
+  <app-cocktail-list></app-cocktail-list>
+</section>
